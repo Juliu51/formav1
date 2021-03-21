@@ -1,0 +1,31 @@
+body {
+    background-color:#e7d8f7;
+    font-family: 'Open Sans', sans-serif;
+}
+ body form {
+    background-color: #cfb1ee;
+    border: 2px solid black;
+    border-radius: 60px;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+p {
+    font-weight: 900;
+}
+body span {
+    color : red;
+}
+
+.Lytis {
+    text-decoration: underline;
+}
+input, select, textarea {
+    border-radius: 3px;
+    background-color: #e7d8f7;
+ }
+  .seselis {
+    box-shadow: 2px 2px 3px #a062dd;
+}

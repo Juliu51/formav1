@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Forma v1</title>
+    <link rel="stylesheet" href="resset.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Forma v1</h1>
+    <form action="#" method="POST">
+        <div>
+            <p>Vardas <span>*</span></p>
+            <input class="seselis" type="text" name="vardas" placeholder="Vardas" tabindex="1" required>
+        </div>
+        <div>
+            <p>Slaptazodis <span>*</span></p>
+            <input class="seselis" type="password" name="pass" required>
+        </div>
+        <div>
+            <p>Tel. nr <span>*</span></p>
+            <input class="seselis" type="tel" name="tel" tabindex="2" required>
+        </div>
+        <div>
+            <p class="Lytis">Lytis</p>
+            <div>
+                <input type="radio" name="Lytis" id="Vyras" checked>
+                <label for="Vyras">Vyras</label>
+            </div>
+            <div>
+                <input type="radio" name="Lytis" id="Moteris">
+                <label for="Moteris">Moteris</label>
+            </div>
+        </div>
+        <div>
+            <p>Transportas</p>
+            <div>
+                <input type="checkbox" name="Transportas" id="Dviratis">
+                <label for="Dviratis">Dviratis</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Transportas" id="Masina" checked>
+                <label for="Masina">Masina</label>
+            </div>
+            <div>
+                <input type="checkbox" name="Transportas" id="Autobusas">
+                <label for="Autobusas">Autobusas</label>
+            </div>
+        </div>
+        <div>
+            <p>Papildoma informacija</p>
+            <div>
+                <textarea class="seselis" name="Komentaras" id="Komentaras" cols="30" rows="2"></textarea>
+            </div>
+        </div>
+        <div>
+            <p>Prideti nuotrauka</p>
+            <div>
+                <input class="seselis" type="file" name="file" id="file">
+            </div>
+        </div>
+        <div>
+            <p>Pasirinkti spalva</p>
+            <div>
+                <select class="seselis"name="spalva" id="spalvos-pasirinkimas">
+                    <option value="geltona">Geltona</option>
+                    <option value="zalia">Zalia</option>
+                    <option value="raudona">Raudona</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <p>Veiksmai</p>
+            <div>
+                <input class="seselis" type="submit" value="Siusti">
+                <input class="seselis" type="reset" value="Isvalyti">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
